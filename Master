@@ -1,3 +1,4 @@
+@-moz-document domain("quizlet.com") {
 /*  It's recomended to turn it on once you logged in */ 
 
 /* Personal Use License
@@ -396,4 +397,6 @@ color: white
     border-radius: 4px;
     padding: 5px;
     margin: 345px;
+}
+
 }
