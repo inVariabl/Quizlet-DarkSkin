@@ -1,1 +1,399 @@
+/*  It's recomended to turn it on once you logged in */ 
 
+/* Personal Use License
+
+Copyright (c) 2017 Trigstur
+
+The content owner grants the installer a non-exclusive, css code and the license within the code with the following restrictions:
+
+The content is licensed for personal use only, not commercial use. The
+content may not be used in any way whatsoever in which you charge money,
+collect fees, or receive any form of remuneration. The content may not be
+resold, relicensed, sub-licensed, rented, leased, or used in advertising.
+ITS NOT ALLOWED TO REUPLOAD,REUSE,RERELEASE OR USEMENT OF ANY CONTENT.
+
+Title and ownership, and all rights now and in the future, of and for the
+content remain exclusively with the content owner.
+
+There are no warranties, express or implied. The content is provided 'as
+is.'
+
+Neither the content owner, payment processing service, nor hosting service
+will be liable for any third party claims or incidental, consequential, or
+other damages arising out of this license or the users use of the content.
+
+The content needs to stay within this "stylish" */
+
+/* Contact Info 
+This skin is completely made by Trigstur 
+You can Contact me on discord if you have any issues or questions : Trigstur#5919 */
+
+
+
+
+
+/* Code Starts Here */
+
+.ModeControls {
+    background: #363d40;
+}
+.AssistantCheckpointView-bucketBlur, .AssistantScrollableTermViewLayout-bottomBlur {
+    background: linear-gradient(#232729,rgba(35, 39, 41, 0));
+}
+.AssistantFixedActionLayout {
+    background: #232323;
+}
+.TermText, .FormattedText {
+    color: #0c0c0c;
+}
+.AssistantCheckpointView-buckets {
+    background: #232323;
+}
+.AssistantMultipleChoiceQuestionPromptView-termOption:hover {
+    border-color: #f9f7f7;
+}
+.AssistantMultipleChoiceQuestionPromptView-termOption {
+    border: 0.125rem solid #485054;
+}
+.UIKeyboardHint.is-white {
+    background-color: #232323;
+}
+.AssistantScrollableViewLayout-bottomBlur {
+    background: linear-gradient(rgb(35, 35, 35),#232323);
+}
+.AssistantScrollableViewLayout-topBlur {
+    background: linear-gradient(#232323,rgb(35, 35, 35));
+}
+.ProgressSegmentedSemicircle-percent, .ProgressSemicircle-labelName, .ProgressSemicircle-percent, .AssistantControls .ModeControls-modeName, .ModeControls-backText, .ProgressSegmentedSemicircle-labelName {
+      color: white;
+      fill: white;
+}
+.UITextarea-textarea {
+    color: #fafeff;
+}
+.TermText, .FormattedText {
+    color: white !important;
+}
+.TermText, .FormattedText {
+color: black
+}
+.AssistantViewController {
+    background: #232323;
+}
+ .MatchModeControls-currentTime, .UIHeading--six,.ModeControls-modeName {
+    color: white;
+}
+
+.SetPage.has-adz .SetPage-termsWrapper {
+    background: #272b2d;
+}
+.settings-list .app .data, .apps-list .app .data {
+    color: #e2e2e2;
+}
+.settings-list .app .label, .apps-list .app .label {
+    color: #fff;
+}
+.UIDropdown:hover .UIDropdown-select:not(:disabled) {
+    color: #c5c2b5;
+}
+.checkboxes label strong {
+    color: white;
+}
+.UIDropdown:hover:not([aria-disabled="true"]) .UIDropdown-icon {
+    color: #bed3da;
+}
+.SiteNav-menuItem:not(.SiteNav-menuItem--active) .UILink:not(:hover) .SiteNav-menuItemIcon {
+    color: #ffffff;
+    fill: #ffffff;
+}
+.UIDropdown-select {
+        color: #ffffff;
+}
+.SiteHeader-logo:after {
+    box-sizing: border-box;
+    content: "Trigstur's Quizlet | DarkSkin | V1.0";
+    background-color: rgb(35, 35, 35);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 345px;
+}
+.UIDropdown {
+    background: #25292b;
+    border: 0.125rem solid #dadee0;
+    color: #ffffff;
+}
+.ModeLayout {
+    background-color: #232729;
+}
+.ModeLayout {
+    background-color: #232729;
+    transition: max-height 0.2s ease-in;
+}
+.SiteHeader {
+    background: #363d40;
+}
+.SetPageModeButton {
+    background: #363d40;
+    border-bottom: 0.3125rem solid #ffffff;
+    color: #ffffff;
+}
+.UIModeIcon-modeIcon {
+    color: #ffffff;
+    fill: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+.SetPage-header {
+    background: #272b2d;
+}
+.UIHeading + [class^=UI], [class^=UI] + .UIHeading, .UIHeading + .UIHeading {
+    color: white !important;
+}
+.SetPage.has-adz .SetPage-options {
+    background: #272b2d;
+}
+.SetPageTerm-wordText {
+    color: #ffffff;
+    word-wrap: break-word;
+}
+.SetPageHeader {
+    background: #272b2d;
+}
+.UITooltip {
+    background: #232323;
+    color: #fff;
+}
+.UITooltip:after {
+    background: #232323;
+}
+.MenuIconWithTooltip.is-opened .UIButton:not(.UIButton--borderless) {
+    background-color: #232323;
+    color: #ffffff !important;
+}
+.SetPageModeButton:hover .SetPageModeButton-modeName {
+    color: #ffffff;
+}
+.SetPageModeButton:hover {
+    border-bottom-color: #fbfbfa;
+    border-bottom: solid 10px;
+}
+.has-adz .SetPage-headerWrapper {
+    background: #272b2d;
+}
+.SiteHeaderChiclet, .SiteHeaderChiclet:visited {
+    background-color: #232323;
+}
+.SetPage-modesBottomBackground {
+    background: #444b4e;
+}
+.SetPage-menu {
+    background: #272b2d;
+}
+.SiteHeaderChiclet:active, html.cursor .SiteHeaderChiclet:hover, html.cursor .SiteHeaderChiclet:hover:visited {
+    background-color: #232323;
+    color: #ffffff;
+    border-bottom: solid;
+}
+.SiteHeader-logo:after {
+    box-sizing: border-box;
+    content: "Trigstur's Quizlet | DarkSkin | V1.0";
+    background-color: rgb(35, 35, 35);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 345px;
+}
+.SiteHeader-searchInner {
+    border-right: 2px solid #ffffff;
+}
+.DashboardLayout-sidebar {
+    background: #363d40;
+}
+.SiteNav-menuItemTitle {
+    color: #ffffff;
+}
+.SiteNav-createButtonWrapper .SiteNav-menuItemTitle {
+    color: #aabbad;
+}
+.DashboardHeader {
+    background: #1f2121;
+}
+.UIHeading--two {
+    color: white;
+}
+.UIMenuItem .UILink:hover .UIMenuItem-inner {
+    background: #363d40;
+    color: wheat;
+    border-left: solid;
+}
+.Homepage {
+    background: #1f1c1c;
+}
+.SiteNav-menuItemIcon {
+    color: #ffffff;
+    fill: #ffffff;
+}
+.UILinkBox-link .UILink:active, .UILinkBox-link .UILink:focus, .UILinkBox-link .UILink:hover {
+    border-bottom-color: #ffffff;
+}
+.SiteFooter {
+    background: #363d40;
+}
+.button:hover {
+    background-color: #5468c0;
+    border-color: #dcffff;
+    text-decoration: none !important;
+}
+.button:hover, .button:active {
+    background-color: #383632;
+}
+.profile-photo-upload .the-label {
+    background: #363d40;
+}
+.button {
+    background: #1f2121;
+    border: 1px solid #1f2121;
+    background-color: #1f2121;
+    border-color: #b3a270;
+}
+.UIDropdown--inverted {
+    background: #4d5252;
+    border: none;
+}
+.UIButton, .UIButton:visited {
+    background-color: #1f2121;
+    color: #fff;
+}
+.site, .page {
+    background: #25292b;
+}
+.setting h2 {
+    color: #fff;
+}
+.setting p, a {
+    color: #aabbad;
+}
+.setting .title h1 {
+    color: #f7f7f7;
+}
+.setting .box {
+    background: #363d40;
+}
+.setting .title .UIIcon {
+    color: #ffffff;
+}
+.UIButton:active, html.cursor .UIButton:hover, html.cursor .UIButton:hover:visited {
+    border-bottom: solid;
+    background-color: #1f2121;
+    color: #ffffff;
+}
+.DashboardFeedGroup-title {    
+    color: white;
+}
+.SiteNav-menuItem--active .UIMenuItem-inner {
+    background: #363d40;
+    border-left: solid;
+    color: white;
+    border-right: solid;
+}
+.SiteHeader-logo:after {
+    box-sizing: border-box;
+    content: "Trigstur's Quizlet | DarkSkin | V1.0";
+    background-color: rgb(35, 35, 35);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 345px;
+}
+.UILinkBox-inner {
+    padding: 0.75rem 1.25rem;
+    color: white;
+}
+.UILink, .UILink:visited {
+    color: #d4e0e0;
+}
+.Homepage-createStudySet {
+    border: 0.3125rem dashed #363d40;
+}
+.UIToggle-optionInput:checked:not(:disabled) ~ .UIToggle-optionLabel {
+    background-color: #232323;
+    color: #a9b8bd;
+}
+.UIToggle-optionLabel:after, .UIToggle-optionLabel:before {
+    background-color: #c5ceca;
+}
+.UILink:active, html.cursor .UILink:hover, html.cursor .UILink:hover:visited {
+    color: #ffffff;
+}
+.UIToggle-optionInput:hover:not(:disabled) ~ .UIToggle-optionLabel {
+    color: #f9fdff;
+}
+
+.UIToggle-optionLabel {
+    background-color: #363d40;
+    color: #a3b4a7;
+}
+.StudyableLinkBox-studiedActivity {
+    background: #1f2223;
+    border-top: 0.125rem solid #f0f0f0;
+    padding: 1rem 1.25rem 0.5rem;
+}
+.SiteNav-createButtonWrapper:focus .SiteNav-menuItemTitle, .SiteNav-createButtonWrapper:hover .SiteNav-menuItemTitle {
+    color: #ffffff;
+    border-bottom: solid 1px;
+}
+.setting label strong, .setting label.field strong {
+    color: white;
+}
+.StudyableLinkBox-child {
+    margin-top: 0.125rem !important;
+    background: #363d40;
+}
+.SetPageTerm, .SetPageTerm-definitionText {
+color: white
+}
+.UISwitch-input:hover:not(:disabled) ~ .UISwitch-label {
+    color: #131111;
+    background-color: white;
+}
+.UISwitch-label {
+    background-color: #1f2121;
+    color: #dadee0;
+}
+.DashboardLayout {
+    background: #232627;
+}
+.SetPageTerm {
+    background: #444b4e;
+}
+.UILinkBox {
+    background-color: #363d40;
+    position: relative;
+    transition: all 120ms cubic-bezier(0.47,0,0.745,0.715);
+}
+.UILinkBox-link .UILink:active, .UILinkBox-link .UILink:focus, .UILinkBox-link .UILink:hover {
+    border-bottom-color: #ffffff;
+}
+.SetPageTermChunk-subtitle {
+    color: #ffffffad;
+}
+.UIInput-input {
+    color: white;
+}
+.UIModalBody {
+    padding: 2rem 2rem 2rem 2rem;
+    background: #1b1d1d;
+}
+.UIModalHeader {
+    background-color: #202222;
+    color: #fff;
+}
+.UILinkButton {
+    border-bottom: 0.3125rem solid #363d40;
+}
+.SiteHeader-logo:after {
+    box-sizing: border-box;
+    content: "Trigstur's Quizlet | DarkSkin | V1.0";
+    background-color: rgb(35, 35, 35);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 345px;
+}
