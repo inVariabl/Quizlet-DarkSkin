@@ -29,9 +29,8 @@ The content needs to stay within this "stylish" */
 This skin is completely made by Trigstur 
 You can Contact me on discord if you have any issues or questions : Trigstur#5919 */
 
-
-
-
+    
+    
 
 /* Code Starts Here */
 
@@ -112,7 +111,7 @@ color: black
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | V0.1";
+    content: "Trigstur's Quizlet | DarkSkin | V0.1.1";
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
