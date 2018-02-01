@@ -327,14 +327,6 @@ section.main {
     color: white;
     border-right: solid;
 }
-.SiteHeader-logo:after {
-    box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | V1.0";
-    background-color: rgb(35, 35, 35);
-    border-radius: 4px;
-    padding: 5px;
-    margin: 345px;
-}
 .UILinkBox-inner {
     padding: 0.75rem 1.25rem;
     color: white;
