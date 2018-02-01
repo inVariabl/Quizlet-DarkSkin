@@ -407,7 +407,7 @@ color: white
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.1.4" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.1.5" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
@@ -426,4 +426,44 @@ color: white
     margin-top: 1rem;
     white-space: pre-wrap;
     color: #ffffffe3;
+}
+.CreateSetHeader-permissionsLink {
+    color: #ffffff;
+}
+.SetPage.has-adz .SetPage-termsWrapper {
+    background: #272b2d;
+}
+.TermContent-addRow:hover .UILinkButton {
+    border-bottom: solid 10px;
+    color: #ffffff;
+}
+.SpecialCharacterTextarea.is-focused .UITextarea-border {
+    box-shadow: 0 0.25rem 0 0 #ffffff;
+}
+.UITextarea-textarea:focus ~ .UITextarea-border, .UITextarea-textarea.UITextarea-autoExpandTextarea.is-focused ~ .UITextarea-border {
+    box-shadow: 0 0.25rem 0 0 #ffffff;
+}
+.UIButton--white:active, html.cursor .UIButton--white:hover, html.cursor .UIButton--white:hover:visited {
+    background-color: #a5a29b !important;
+}
+.CreateSetPage-container {
+    background: #1a1c1d;
+}
+.TermContent-inner {
+    background-color: #272b2d;
+    cursor: move;
+    padding: 0.75rem 0.75rem 1.5rem 4.625rem;
+    position: relative;
+}
+.CreateSetHeader, .UIFloatedCardBackdrop-bottom, .UIFloatedCardBackdrop {
+    background: #1a1c1d;
+}
+.CreateSetDiagramUploader-banner:active .UILink, html.cursor .CreateSetDiagramUploader-banner:hover .UILink, html.cursor .CreateSetDiagramUploader-banner:hover:visited .UILink {
+    color: #a6c3c0;
+}
+.UIFileChooser-contents {
+    background: #272b2d;
+}
+.CreateSetHeader-sticky {
+    background: #151617;
 }
