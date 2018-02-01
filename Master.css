@@ -226,14 +226,6 @@ section.main {
     color: #ffffff;
     border-bottom: solid;
 }
-.SiteHeader-logo:after {
-    box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.1.1";
-    background-color: rgb(35, 35, 35);
-    border-radius: 4px;
-    padding: 5px;
-    margin: 345px;
-}
 .SiteHeader-searchInner {
     border-right: 2px solid #ffffff;
 }
@@ -397,7 +389,7 @@ color: white
     border-bottom-color: #ffffff;
 }
 .SetPageTermChunk-subtitle {
-    color: #ffffffad;
+    color: #ffffff;
 }
 .UIInput-input {
     color: white;
@@ -415,7 +407,7 @@ color: white
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.1.3";
+    content: "Trigstur's Quizlet | DarkSkin | v0.1.3" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
