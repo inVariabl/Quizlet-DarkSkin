@@ -407,9 +407,24 @@ color: white
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.1.3" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.1.4" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
     margin: 345px;
+}
+.UIIcon + .DashboardHeaderTitle-title {
+    margin-left: 2rem;
+    color: white;
+}
+.StudiedActivityStrip-status {
+    color: #000000;
+}
+.ClassPageHeader-info {
+    color: #cecece;
+}
+.DashboardHeaderTitle-subtitle {
+    margin-top: 1rem;
+    white-space: pre-wrap;
+    color: #ffffffe3;
 }
