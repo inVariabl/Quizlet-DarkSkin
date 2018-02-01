@@ -413,8 +413,7 @@ color: white
     padding: 5px;
     margin: 345px;
 }
-.UIIcon + .DashboardHeaderTitle-title {
-    margin-left: 2rem;
+.UIIcon + .DashboardHeaderTitle-title, .CreateSetHeader-title {
     color: white;
 }
 .StudiedActivityStrip-status {
