@@ -475,9 +475,35 @@ color: white
     color: #ffffff;
     border-bottom: solid 10px #171616;
 }
+.CardsItemSide .CardsItemInner, .firefox .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner {
+    background-color: #1f2121;
+}
+.UISwitch-input:checked:not(:disabled) ~ .UISwitch-label {
+    background-color: #1f2121;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.UIProgressBar-fill {
+    background-color: #ffffff;
+}
+.UIProgressBar {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.UIProgressBar {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.UIParagraph, .GravityDirectionsView-title, .SiteNav-blogDescription {
+    color: white;
+}
+.GravityTerm-content, .GravityLevelUpBadge.GravityLevelUpBadge {
+    color: #000 !important;
+}
+html, body {
+    color: #ffffff;
+}
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.1.6" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.1.7" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
