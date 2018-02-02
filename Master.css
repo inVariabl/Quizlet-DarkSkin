@@ -501,9 +501,25 @@ color: white
 html, body {
     color: #ffffff;
 }
+.MatchModeQuestionGridTile {
+    background-color: #232323
+}
+.SetPageTerm-sideContent {
+    border-right: 0.125rem solid #272b2d !important;
+}
+.MatchModeQuestionScatterTile {
+    background-color: #232323;
+}
+.UISpecialCharacterButton:hover:not([disabled]), .GravityDirectionsView-title, .UIParagraph {
+    background-color: #1f2121;
+    border-color: #ffffff;
+}
+.UISpecialCharacterButton {
+    background-color: #1f2121;
+}
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.1.7" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.1.8" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
