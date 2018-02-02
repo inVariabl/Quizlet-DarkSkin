@@ -517,6 +517,14 @@ html, body {
 .UISpecialCharacterButton {
     background-color: #1f2121;
 }
+.UIToggle-optionLabel svg {
+    fill: #ffffff;
+    stroke: #ffffff;
+}
+.UIToggle-optionInput:hover:not(:disabled) ~ .UIToggle-optionLabel svg {
+    fill: #819e9d;
+    stroke: #819e9d;
+}
 .SiteHeader-logo:after {
     box-sizing: border-box;
     content: "Trigstur's Quizlet | DarkSkin | v0.1.8" !important;
