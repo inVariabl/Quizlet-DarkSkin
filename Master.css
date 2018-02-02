@@ -525,9 +525,15 @@ html, body {
     fill: #819e9d;
     stroke: #819e9d;
 }
+.UpsellModalMessage {
+    background: #1b1d1d;
+}
+.UIModal-closeButtonWrapper {
+    background: #1b1d1d;
+}
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.1.8" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.1.9" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
