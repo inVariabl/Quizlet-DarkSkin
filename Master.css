@@ -556,9 +556,24 @@ html, body {
 .UIKeyboardHint-text.is-white {
     background-color: #232729;
 }
+    .LearnModeMain {
+    background: #1d1d1d;
+}
+.SetPageTermChunk--oftenMissed .SetPageTerm-score {
+    color: #e87e6c;
+}
+.SetPageTermChunk--sometimesMissed .SetPageTerm-score {
+    color: #ffa837;
+}
+html, body {
+    background: #171717;
+}
+.AssistantCheckpointBucketedTermButton, .AssistantCheckpointBucketedTermButton-content, .SpellModeLayout-view:not(:empty).SpellModeLayout-view--withBackground {
+    background: #151515;
+}
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.1.9.3" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.2" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
