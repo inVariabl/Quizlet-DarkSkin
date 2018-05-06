@@ -34,9 +34,18 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 
 
 /* Code Starts Here */
-
-.ModeControls {
-    background: #363d40;
+.UIButton, .UIButton:visited {
+    background-color: #363d40;
+    color: #fff;
+}
+.UIButton--inverted, .UIButton--inverted:visited {
+    box-shadow: inset 0 0 0 3px #ffffff;
+    }
+.UIButton-wrapper {    
+     color: black;
+}
+.ModeControls, .ModeControls-actions {
+    background: #363d40 !important;
 }
 .AssistantCheckpointView-bucketBlur, .AssistantScrollableTermViewLayout-bottomBlur {
     background: linear-gradient(#232729,rgba(35, 39, 41, 0));
@@ -573,7 +582,7 @@ html, body {
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.2" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.2.1" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
