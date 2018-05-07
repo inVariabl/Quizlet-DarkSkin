@@ -34,6 +34,9 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 
 
 /* Code Starts Here */
+.UIPopover, .SpecialCharacterTextarea-accentsBarInner {
+    background: #272b2d;
+    }
 .UIButton, .UIButton:visited {
     background-color: #363d40;
     color: #fff;
