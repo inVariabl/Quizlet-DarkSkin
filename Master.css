@@ -40,9 +40,15 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 }
 .UIButton--inverted, .UIButton--inverted:visited {
     box-shadow: inset 0 0 0 3px #ffffff;
-    }
+}
 .UIButton-wrapper {    
-     color: black;
+     color: #DADEE0;
+}
+.UIButton--whiteBorder {
+    background: #1F2121 !important;
+}
+.UIButton--whiteBorder:hover {
+    background: #363d40 !important;
 }
 .ModeControls, .ModeControls-actions {
     background: #363d40 !important;
@@ -582,7 +588,7 @@ html, body {
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.2.1" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.2.2" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
