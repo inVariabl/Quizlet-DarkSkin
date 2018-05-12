@@ -35,7 +35,7 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 
 /* Code Starts Here */
 .UIPopover, .SpecialCharacterTextarea-accentsBarInner {
-    background: #272b2d;
+    background: #272b2d !important;
     }
 .UIButton, .UIButton:visited {
     background-color: #363d40;
@@ -264,7 +264,7 @@ section.main {
     color: white;
 }
 .UIMenuItem .UILink:hover .UIMenuItem-inner {
-    background: #363d40;
+    background: #363d40 !important;
     color: wheat;
     border-left: solid;
 }
@@ -442,7 +442,7 @@ color: white
     color: #ffffff;
 }
 .SetPage.has-adz .SetPage-termsWrapper {
-    background: #272b2d;
+    background: #272b2d !important;
 }
 .TermContent-addRow:hover .UILinkButton {
     border-bottom: solid 10px;
@@ -596,5 +596,54 @@ html, body {
     border-radius: 4px;
     padding: 5px;
     margin: 345px;
+}
+/*BEGIN EDITS*/
+/*Homepage (No Login)*/
+.cursor .Homepage-splash {
+    background-image: None !important;
+    background: #25292b !important;
+}
+.Homepage-sectionGrayBackground {
+    background: #25292b !important;
+}
+.Homepage-featureCalloutWrapper {
+    background-color: #363d40 !important;
+}
+.Homepage-createStudySet {
+    background: #363d40 !important;
+    border: 0.3125rem dashed #3ccfcf !important;
+}
+
+/*Latest Activity*/
+.OnboardingCard {
+    background: #363d40 !important;
+}
+
+/*Login Required*/
+body.white .site,
+body.white .page {
+    background: #272b2d !important;
+}
+.UISpecialCharacterButton:hover:not([disabled]),
+.GravityDirectionsView-title,
+.UIParagraph {
+    border-color: #ffffff;
+    background-color: Transparent !important;
+}
+
+/*Flash Cards Embed on Terms Page*/
+.SetPage-diagramWrapper,
+.SetPage-embedModeWrapper {
+    background: #25292b !important;
+}
+    
+/*User Settings Dropdown*/
+.UIMenuItem-inner {
+    color: #fff !important;
+}
+
+/*https://quizlet.com/goodbye*/
+.LogoutMobileSplash-featureRow {
+    background: #272b2d !important;
 }
 }
