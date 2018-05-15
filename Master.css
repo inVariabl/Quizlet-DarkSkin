@@ -34,6 +34,38 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 
 
 /* Code Starts Here */
+    
+    .SiteAd-adContainer {
+    display: none !important;
+      cursor: not-allowed;
+}
+.SiteAd-removeLink {
+    border: solid #b3ff9b 1px;
+    margin: 0px 28px 13px 40px;
+      cursor: not-allowed;
+}
+.SiteAd-label, .SiteAd-removeLink .UILink:Before {
+    color: #b3ff9bab;
+      text-align: center;
+      content: "Advertisement successfully Removed by Quizlet DarkSkin";
+    display: table-row;
+      cursor: not-allowed;
+}
+.SiteAd-removeLink {
+    border: solid #b3ff9bab 2px;
+    margin: 0px 18px 13px 85px;
+    padding: 5px 5px 2px 2px;
+      cursor: not-allowed;
+}
+.SiteAd-label, .SiteAd-removeLink .UILink {
+    color: transparent;
+            text-align: center;
+      cursor: not-allowed;
+}
+.SiteAd-label, .SiteAd-removeLink .UILink {
+    color: transparent !important;
+      cursor: not-allowed;
+}
 .UIPopover, .SpecialCharacterTextarea-accentsBarInner {
     background: #272b2d !important;
     }
