@@ -34,6 +34,16 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 
 
 /* Code Starts Here */
+    .UILinkButton:active, .UILinkButton:focus, .UILinkButton:hover {
+    border-bottom: solid white 7px;
+    color: #ffffff;
+}
+.UIRadio-input:checked ~ .UIRadio-fauxInput {
+    border-color: #ffffff;
+}
+.UIContainer, .ImportTerms-import, .ImportTerms-preview{
+    background: #1a1c1c;
+}
     .UpgradePage-splash--plus .UpgradePage-testimonial {
     top: 40px;
 }
@@ -672,7 +682,7 @@ html, body {
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.2.2" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.2.5" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
