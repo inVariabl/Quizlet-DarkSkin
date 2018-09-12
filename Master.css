@@ -1,4 +1,3 @@
-@-moz-document domain("quizlet.com") {
 /*  It's recomended to turn it on once you logged in */ 
 
 /* Personal Use License
@@ -34,6 +33,21 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 
 
 /* Code Starts Here */
+html.cursor .CardsList-bottomControls .UIButton.UIButton--borderless:hover {
+    background-color: #595c5d;
+    color: #455358;
+}
+.CardsList-navControl.previousButton .UIButton--white[disabled], .CardsList-navControl.nextButton .UIButton--white[disabled], .CardsList-navControl.previousButton .UIButton--white[disabled]:hover, .CardsList-navControl.nextButton .UIButton--white[disabled]:hover {
+    background-color: #1d1c1c !important;
+    box-shadow: none;
+}
+.CardsList-bottomControls .UIButton.UIButton--borderless {
+    background-color: #1d1c1c;
+}
+.UIButton--white {
+    background: #1d1c1c !important;
+    box-shadow: 0 0 0.25rem #f0f0f0;
+}
     .UILinkButton:active, .UILinkButton:focus, .UILinkButton:hover {
     border-bottom: solid white 7px;
     color: #ffffff;
@@ -41,8 +55,8 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 .UIRadio-input:checked ~ .UIRadio-fauxInput {
     border-color: #ffffff;
 }
-.UIContainer, .ImportTerms-import, .ImportTerms-preview{
-    background: #1a1c1c;
+.cainer, .ImportTerms-import, .ImportTerms-preview {
+    background: #1a1c1c00;
 }
     .UpgradePage-splash--plus .UpgradePage-testimonial {
     top: 40px;
@@ -56,6 +70,7 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 .CheckoutForm-heading {
     background: #1a1c1c;
 }
+
 .CheckoutRecurringLineItem-icon {
     background: #121313;
     background: -webkit-linear-gradient(top,#121313,#121313);
@@ -67,6 +82,9 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
     display: table-row;
       content: "Important : Quizlet DarkSkin has several features a plus account gets you. But 'Night Mode' ofcourse and the 'Focussed studying' mode wich disables all adds on the site We already added for you!, We love Quizlet so if you want to support them please do! But consider that you might not need it, Thanks for using our  style.  -The Quizlet Darkskin Team"; 
       color: white;
+}
+.SiteNav-menuItem--active .SiteNav-menuItemTitle, .SiteNav-menuItem:hover .SiteNav-menuItemTitle, .SiteNav-menuItem:active .SiteNav-menuItemTitle {
+    color: #ffffff !important;
 }
 .UpgradePage-splash--plus .UpgradePage-testimonial {
     color: transparent;
@@ -80,7 +98,7 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
     color: #fdffe4;
 }
 body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
-    background: #1a1c1c;
+    background: #1a1c1c00;
 }
 .FeatureRow {
     background: #1a1c1c;
@@ -232,7 +250,7 @@ color: black
     transition: max-height 0.2s ease-in;
 }
 .SiteHeader {
-    background: #363d40;
+    background: #1a1c1c;
 }
 .SetPageModeButton {
     background: #363d40;
@@ -641,6 +659,7 @@ html, body {
 .UIModal-closeButtonWrapper {
     background: #1b1d1d;
 }
+
     .ie11 .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner, .webkit .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner, .firefox .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner {
     background-color: #1d1c1c !important;
 }
@@ -659,7 +678,7 @@ html, body {
 .ModeControls-actions {
     background: #171717;
 }
-.ModeLayout.is-fullHeight .UIContainer {
+.ModeLayout.is-fullHeight  {
     background: #171717;
 }
 .UIKeyboardHint-text.is-white {
@@ -682,7 +701,7 @@ html, body {
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.2.5" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.3" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
@@ -736,5 +755,4 @@ body.white .page {
 /*https://quizlet.com/goodbye*/
 .LogoutMobileSplash-featureRow {
     background: #272b2d !important;
-}
 }
