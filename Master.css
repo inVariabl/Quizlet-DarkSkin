@@ -1,3 +1,4 @@
+@-moz-document domain("quizlet.com") {
 /*  It's recomended to turn it on once you logged in */ 
 
 /* Personal Use License
@@ -755,4 +756,4 @@ body.white .page {
 /*https://quizlet.com/goodbye*/
 .LogoutMobileSplash-featureRow {
     background: #272b2d !important;
-}
+    }}
