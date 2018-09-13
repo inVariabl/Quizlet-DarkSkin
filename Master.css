@@ -34,6 +34,15 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 
 
 /* Code Starts Here */
+    .FlippableFlashcard-front, .FlippableFlashcard-back, .AssistantRevealSelfAssessmentQuestionView-actionArea, .UIKeyboardHint {
+    background: #232729;
+}
+.UIButtonWithKeyboardHint .UIButton {
+    border: 0.125rem solid #ffffff;
+}
+.AssistantScrollableViewLayout-topBlur, .AssistantScrollableViewLayout-bottomBlur {
+    background: linear-gradient(#232729,rgb(35, 39, 41));
+}
 html.cursor .CardsList-bottomControls .UIButton.UIButton--borderless:hover {
     background-color: #595c5d;
     color: #455358;
@@ -186,12 +195,6 @@ body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset,
 }
 .UIKeyboardHint.is-white {
     background-color: #232323;
-}
-.AssistantScrollableViewLayout-bottomBlur {
-    background: linear-gradient(rgb(35, 35, 35),#232323);
-}
-.AssistantScrollableViewLayout-topBlur {
-    background: linear-gradient(#232323,rgb(35, 35, 35));
 }
 .ProgressSegmentedSemicircle-percent, .ProgressSemicircle-labelName, .ProgressSemicircle-percent, .AssistantControls .ModeControls-modeName, .ModeControls-backText, .ProgressSegmentedSemicircle-labelName {
       color: white;
