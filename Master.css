@@ -34,7 +34,7 @@ You can Contact me on discord if you have any issues or questions : Trigstur#591
 
 
 /* Code Starts Here */
-    .FlippableFlashcard-front, .FlippableFlashcard-back, .AssistantRevealSelfAssessmentQuestionView-actionArea, .UIKeyboardHint {
+   .UIKeyboardHint-text, .FlippableFlashcard-front, .FlippableFlashcard-back, .AssistantRevealSelfAssessmentQuestionView-actionArea, .UIKeyboardHint {
     background: #232729;
 }
 .UIButtonWithKeyboardHint .UIButton {
@@ -705,7 +705,7 @@ html, body {
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.3" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.3.1" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
