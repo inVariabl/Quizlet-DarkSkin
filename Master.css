@@ -668,9 +668,11 @@ html, body {
 .UIModal-closeButtonWrapper {
     background: #1b1d1d;
 }
-
-    .ie11 .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner, .webkit .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner, .firefox .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner {
-    background-color: #1d1c1c !important;
+.AssistantMultipleChoiceQuestionPromptView-inner,.TestModePage-sections,  .AssistantFixedActionLayout-content, .ie11 .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner, .webkit .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner, .firefox .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner {
+    background-color: #232729 !important;
+}
+.CardsItem {
+    border: solid #1f2121;
 }
 .SiteNav-classNotification {
     background: #596969;
@@ -710,7 +712,7 @@ html, body {
 }
 .SiteHeader-logo:after {
     box-sizing: border-box;
-    content: "Trigstur's Quizlet | DarkSkin | v0.3.1" !important;
+    content: "Trigstur's Quizlet | DarkSkin | v0.3.2" !important;
     background-color: rgb(35, 35, 35);
     border-radius: 4px;
     padding: 5px;
