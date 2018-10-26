@@ -766,4 +766,11 @@ body.white .page {
 /*https://quizlet.com/goodbye*/
 .LogoutMobileSplash-featureRow {
     background: #272b2d !important;
-    }}
+    }
+
+/*"Other Sets by this creator"*/
+.SuggestedSets--contentPreview, .SetPage-diagram.is-updatedPreviewCards, .SetPage-terms.is-updatedPreviewCards, .SetPage-recommendedSets.is-updatedPreviewCards {
+   background: #272b2d;
+}
+   
+}
